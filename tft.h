@@ -7,21 +7,24 @@
 
 #include <TFT_eSPI.h>     // incluye la libreria para el manejo de la TFT
 #include <SPI.h>		      // incluye libreria bus SPI
-#include "Free_Fonts.h"   // Include the header file attached to this sketch
-//#include "LOGO_JMTS.h"
+#include "Free_Fonts.h"   // Incluye el archivo de encabezado adjunto a este sketch.
+#include "icono.h"
 
 // Objeto TFT 
 TFT_eSPI tft = TFT_eSPI();	// crea objeto;
+int xpos = tft.width() / 2; 
 
 // con esta función dibujamos lo que no queremos que no se refresque en la pantalla y la orientación de esta, la ejecutamos desde la funcion configuracionPantalla().
 void zonaFijaPantalla(){
   tft.setSwapBytes(true);
   tft.fillScreen(TFT_BLACK);                 // Establece el fondo de pantalla.
-  tft.drawLine(0, 0, 480, 0, TFT_WHITE);     // linea horizontal de color AZUL
-  tft.drawLine(0, 135, 480, 135, TFT_WHITE); // linea horizontal de color AZUL
-  tft.drawLine(0, 253, 480, 253, TFT_WHITE); // linea horizontal de color AZUL
-  tft.drawLine(0, 319, 480, 319, TFT_WHITE); // linea horizontal de color AZUL
-  tft.pushImage(310, 265, xw, xh, xxx);
+  tft.drawLine(0, 0, 480, 0, TFT_WHITE);     // linea horizontal de color blanca
+  tft.drawLine(0, 135, 480, 135, TFT_WHITE); // linea horizontal de color blanca
+  tft.drawLine(0, 253, 480, 253, TFT_WHITE); // linea horizontal de color blanca
+  tft.drawLine(0, 319, 480, 319, TFT_WHITE); // linea horizontal de color blanca
+  tft.pushImage(3,155,CW,CH,th);
+  tft.setTextDatum(TC_DATUM);
+  tft.pushImage(xpos, 265, xw, xh, xxx);
 }
 
 // Esta funcion se ejecuta en el Setup para configurar la pantalla y mostrar los datos o dibujos que mo se refrescan mediante la función zonaFijaPantalla().
@@ -38,7 +41,6 @@ void mostrarPantalla(){
   tft.setTextColor(TFT_WHITE,TFT_BLACK);                // Establece el color de texto y del fondo para el texto  
   tft.setFreeFont(FSSB24);                              // Select Free Serif 24 point font
   tft.setTextPadding(120);
-  tft.setTextDatum(TC_DATUM);
   tft.drawString(horMin,xpos,22,GFXFF);
   tft.drawString(diaS + " " + dia + " " + mes + " " + ano,xpos,70, GFXFF);  // Imprimimos la fecha
   tft.setFreeFont(FSSB18);
