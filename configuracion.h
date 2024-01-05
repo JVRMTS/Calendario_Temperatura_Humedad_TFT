@@ -27,12 +27,12 @@ char* ubicacion(){
 }
 
 //Configuración de la WiFi
-const char *ssid = "JMTS";
-const char *password = "JAVIER276MTS";
+const char *ssid = "****";
+const char *password = "****";
 
 //Password para la actualización via OTA
-char *passwordOTA = "JavierMt5*/";
+char *passwordOTA = "****";
 
 //Configuración del Servidor Web
-String dominio = "sensores.jmts.es";                            // Dominio que estes usando
+String dominio = "tu_dominio.com";                           // Dominio que estes usando
 String url = "http://" + dominio + "/config/inse_post.php"; // Dirección web del servidor con el dominio insertado
