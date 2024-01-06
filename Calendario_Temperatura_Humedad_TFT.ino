@@ -24,7 +24,7 @@
 unsigned long previosMillis;
 unsigned long previosMillis1;
 unsigned long intervalo = 60000;
-unsigned long intervalo1 = 5000;
+unsigned long intervalo1 = 15000; // INTERVALO PARA MOSTRAR FECHA Y HORA. Cuanto más grande sea tendras menos parpadeo en la pantalla aunque la actualización de la hora sera mas lenta, aquí esta puesto en 15 segundos.
 
 void setup()
 {
