@@ -7,3 +7,5 @@ Se actualiza solo el horario de verano.
 Tambien se visualiza la temperatura, la humedad y la sensación termica.
 
 La estructura de la base de datos y la publicación en la web la puedes ver en el otro Reloj."# Calendario_Temperatura_Humedad_TFT" 
+
+<img src="Calendario_Temperatura_Humedad_TFT.jpg" alt="Calendario_Temperatura_Humedad_TFT" />
