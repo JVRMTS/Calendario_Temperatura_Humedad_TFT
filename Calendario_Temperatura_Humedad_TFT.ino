@@ -1,6 +1,6 @@
 /*
  * @JMTS
- * Probado con ESP32 DEVKIT y WEMOS D1 R32 (palaca con forma de arduino 1 para que funcione hay que realizar las modificaciones descritas en la libreria TFT_eSPI)
+ * Probado con ESP32 DEVKIT y WEMOS D1 R32 (En la placa WEMOS D1 R32 con forma de arduino 1 para que funcione hay que realizar las modificaciones descritas en la libreria TFT_eSPI)
  * Reloj con fecha y hora más sensor de temperatura y humedad en pantalla TFT con la libreria TFT_eSPI
  * Sensor de Temperatura-Humedad DHT22 o DHT11 solo has de configurarlo en su script
  * Hora a traves de servidor NTP basado en el ejemplo SimpleTime de la libreria del ESP32
