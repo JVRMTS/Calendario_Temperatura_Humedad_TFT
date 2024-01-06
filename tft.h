@@ -8,7 +8,9 @@
 #include <TFT_eSPI.h>     // incluye la libreria para el manejo de la TFT
 #include <SPI.h>		      // incluye libreria bus SPI
 #include "Free_Fonts.h"   // Incluye el archivo de encabezado adjunto a este sketch.
-#include "icono.h"
+#include "ico_t.h"
+#include "ico_h.h"
+#include "sen_ter.h"
 
 // Objeto TFT 
 TFT_eSPI tft = TFT_eSPI();	// crea objeto;
@@ -22,7 +24,9 @@ void zonaFijaPantalla(){
   tft.drawLine(0, 135, 480, 135, TFT_WHITE); // linea horizontal de color blanca
   tft.drawLine(0, 253, 480, 253, TFT_WHITE); // linea horizontal de color blanca
   tft.drawLine(0, 319, 480, 319, TFT_WHITE); // linea horizontal de color blanca
-  tft.pushImage(3,155,CW,CH,th);
+  tft.pushImage(4,155,CW,CH,th);
+  tft.pushImage(444,155,HW,HH,ht);
+  tft.pushImage(65,200,SW,SH,sh);
   tft.setTextDatum(TC_DATUM);
   tft.pushImage(xpos, 265, xw, xh, xxx);
 }
@@ -48,7 +52,3 @@ void mostrarPantalla(){
   tft.drawString(t1 + " | " + t2,xpos,155);		              // Imprimimos la temperatura y la humedad
   tft.drawString(t3,xpos,200, GFXFF);                     // Imprimimos la Sensación Térmica
 }
-
-
-
-
