@@ -8,7 +8,7 @@
 // Confinguramos el servidor NTP
 const char* ntpServer = "pool.ntp.org";                 // Servidor NTP para sincronizar el reloj
 const long gmtOffset_sec = 3600;                        // Selección de la zona horaria GMT+1
-const int daylightOffset_sec = 36000;                   // Configuración para el horario de verano
+const int daylightOffset_sec = 3600;                   // Configuración para el horario de verano
 const char* time_zone = "CET-1CEST,M3.5.0,M10.5.0/3";  // TimeZone rule for Europe/Rome including daylight adjustment rules (optional)
 
 // Declaramos las variables que mostraremos en pantalla para que estén disponibles
