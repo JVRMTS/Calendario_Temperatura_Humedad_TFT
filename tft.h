@@ -10,7 +10,7 @@
 #include "Free_Fonts.h"   // Incluye el archivo de encabezado adjunto a este sketch.
 #include "ico_t.h"
 #include "ico_h.h"
-#include "ico_sen_ter.h"
+#include "ico_st.h"
  
 TFT_eSPI tft = TFT_eSPI();	// crea objeto tft
 int xpos = tft.width() / 2; // Centro del ancho de pantalla
