@@ -19,7 +19,7 @@ int ano;
 char horMin[7];
 
 void fecha(){
-configTime(gmtOffset_sec, daylightOffset_sec, ntpServer);
+configTime(gmtOffset_sec, daylightOffset_sec, ntpServer); //Iniciamos y configuramos la fecha y hora
 struct tm timeinfo;
 if (!getLocalTime(&timeinfo)){
    Serial.println("Fallo al obtener fecha y hora");
@@ -28,13 +28,13 @@ if (!getLocalTime(&timeinfo)){
    // Conseguir el día de la semana corto en castellano
    char *diaSemana[]= {"Dom", "Lun", "Mar", "Mie", "Jue", "Vie", "Sab"};
    diaS = diaSemana[timeinfo.tm_wday];
-   // Conseguir el mes en castellano
+   // Conseguir el mes corto en castellano
    char *meses[] = {"Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"};
    // Asignar valor a las variables que mostraremos en pantalla
    mes = meses[timeinfo.tm_mon];
    ano = timeinfo.tm_year + 1900;
    dia = timeinfo.tm_mday;
    sprintf(horMin, "%02d:%02d",timeinfo.tm_hour, timeinfo.tm_min ); // Damos formato a horas y minutos
-   String asString(horMin);                                         // Convertimos las horas y minutos en un String
+   String asString(horMin);                                         // Convertimos las horas y minutos en un String para poder mostrarlas en pantalla
 }
 

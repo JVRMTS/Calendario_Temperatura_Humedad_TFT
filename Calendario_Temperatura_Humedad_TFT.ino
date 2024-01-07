@@ -54,9 +54,10 @@ void loop()
   unsigned long currentMillis = millis();   
   // Llamamos, cada minuto, a la función para insertar los datos en la base de datos
   if ((unsigned long) (currentMillis - previosMillis) >= intervalo){
-      enviarBD();
+      enviarBD(); // Comentalo si no quieres utilizar la base de datos
       previosMillis = millis();
     }
+  // Llamamos, cada 15 segundos a la función de mostrar pantalla
   if ((unsigned long) (currentMillis - previosMillis1) >= intervalo1){
       mostrarPantalla();
       previosMillis1 = millis();

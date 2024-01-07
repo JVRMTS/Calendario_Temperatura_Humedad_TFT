@@ -16,6 +16,4 @@ void conectarWiFi()
     delay(5000);
     ESP.restart();
   }
-  //Iniciamos y configuramos el reloj
-  configTime(gmtOffset_sec, daylightOffset_sec, ntpServer);
 }

@@ -10,11 +10,10 @@
 #include "Free_Fonts.h"   // Incluye el archivo de encabezado adjunto a este sketch.
 #include "ico_t.h"
 #include "ico_h.h"
-#include "sen_ter.h"
-
-// Objeto TFT 
-TFT_eSPI tft = TFT_eSPI();	// crea objeto;
-int xpos = tft.width() / 2; 
+#include "ico_sen_ter.h"
+ 
+TFT_eSPI tft = TFT_eSPI();	// crea objeto tft
+int xpos = tft.width() / 2; // Centro del ancho de pantalla
 
 // con esta función dibujamos lo que no queremos que no se refresque en la pantalla y la orientación de esta, la ejecutamos desde la funcion configuracionPantalla().
 void zonaFijaPantalla(){
@@ -34,21 +33,21 @@ void zonaFijaPantalla(){
 // Esta funcion se ejecuta en el Setup para configurar la pantalla y mostrar los datos o dibujos que mo se refrescan mediante la función zonaFijaPantalla().
 void configuracionPantalla(){
   tft.begin();					               // Inicializa pantalla.
-  tft.setRotation(1);				           // establece posicion 1 - vertical pines pantalla abajo, 2-horizontal pines pantalla derecha, 3-vertical pines pantalla arriba, 4-horizontal pines pantalla izquierda.
+  tft.setRotation(1);				           // establece posicion 0 - vertical pines pantalla abajo, 1-horizontal pines pantalla derecha, 2-vertical pines pantalla arriba, 3-horizontal pines pantalla izquierda.
   zonaFijaPantalla();                  // Llamamos a la función para mostrar los datos e imágenes que no se refrescan y permanecen fijos en pantalla.
 }
 
 void mostrarPantalla(){
-  fecha();                                              // Recojemos los datos de fecha y hora
-  temperatura();                                        // Recojemos los datos de temperatura, humedad y sensación térmica.
-  int xpos = tft.width() / 2;                           // Centro del ancho de pantalla
-  tft.setTextColor(TFT_WHITE,TFT_BLACK);                // Establece el color de texto y del fondo para el texto  
-  tft.setFreeFont(FSSB24);                              // Select Free Serif 24 point font
-  tft.setTextPadding(120);
-  tft.drawString(horMin,xpos,22,GFXFF);
-  tft.drawString(diaS + " " + dia + " " + mes + " " + ano,xpos,70, GFXFF);  // Imprimimos la fecha
-  tft.setFreeFont(FSSB18);
-  tft.setTextColor(TFT_YELLOW, TFT_BLACK);              // texto en color amarillo y fondo negro.
-  tft.drawString(t1 + " | " + t2,xpos,155);		              // Imprimimos la temperatura y la humedad
-  tft.drawString(t3,xpos,200, GFXFF);                     // Imprimimos la Sensación Térmica
+  fecha();                                                                  // Recojemos los datos de fecha y hora
+  temperatura();                                                            // Recojemos los datos de temperatura, humedad y sensación térmica.
+  int xpos = tft.width() / 2;                                               // Centro del ancho de pantalla
+  tft.setTextColor(TFT_WHITE,TFT_BLACK);                                    // Establece el color de texto y del fondo para el texto  
+  tft.setFreeFont(FSSB24);                                                  // Seleccionamos la fuente FreeSansBold24pt7b
+  tft.setTextPadding(120);                                                  // Se utiliza para borrar los pixeles antiguos al refrescar la pantalla
+  tft.drawString(horMin,xpos,22,GFXFF);                                     // Imprimimos por pantalla la hora y los minutos.
+  tft.drawString(diaS + " " + dia + " " + mes + " " + ano,xpos,70, GFXFF);  // Imprimimos por pantalla la fecha
+  tft.setFreeFont(FSSB18);                                                  // Seleccionamos la fuente FreeSansBold18pt7b
+  tft.setTextColor(TFT_YELLOW, TFT_BLACK);                                  // texto en color amarillo y fondo negro.
+  tft.drawString(t1 + " | " + t2,xpos,155);		                              // Imprimimos por pantalla la temperatura y la humedad
+  tft.drawString(t3,xpos,200, GFXFF);                                       // Imprimimos por pantalla la Sensación Térmica
 }
