@@ -8,15 +8,15 @@
 // Confinguramos el servidor NTP
 const char* ntpServer = "pool.ntp.org";                 // Servidor NTP para sincronizar el reloj
 const long gmtOffset_sec = 3600;                        // Selección de la zona horaria GMT+1
-const int daylightOffset_sec = 3600;                   // Configuración para el horario de verano
-const char* time_zone = "CET-1CEST,M3.5.0,M10.5.0/3";  // TimeZone rule for Europe/Rome including daylight adjustment rules (optional)
+const int daylightOffset_sec = 3600;                    // Configuración para el horario de verano
+const char* time_zone = "CET-1CEST,M3.5.0,M10.5.0/3";   //Regla de zona horaria para Europa/Roma, incluidas reglas de ajuste de horario de verano
 
 // Declaramos las variables que mostraremos en pantalla para que estén disponibles
 String diaS;
 int dia;
 String mes;
 int ano;
-char horMin[7];
+char horMin[6];
 
 void fecha(){
 configTime(gmtOffset_sec, daylightOffset_sec, ntpServer); //Iniciamos y configuramos la fecha y hora
