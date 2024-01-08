@@ -12,7 +12,7 @@ La estructura de la base de datos y la publicación en la web la puedes ver en e
 
 Nota: "En la placa WEMOS D1 R32 no se muestran datos porque no hay conectado un sensor DHT"
 <p>
-Probado con ESP32 DEVKIT y WEMOS D1 R32 (En la placa WEMOS D1 R32 con forma de arduino 1 para que funcione hay que realizar las modificaciones descritas en la libreria TFT_eSPI y en https://github.com/s60sc/Adafruit_TouchScreen si quieres utilizar el touch panel)
+Probado con ESP32 DEVKIT y WEMOS D1 R32 (En la placa WEMOS D1 R32 con forma de arduino 1 para que funcione hay que realizar las modificaciones descritas en la libreria TFT_eSPI y en <a href="https://github.com/s60sc/Adafruit_TouchScreen" target="_blank">github.com/s60sc/Adafruit_TouchScreen</a> si quieres utilizar el touch panel)
 <p>
 He adjuntado los dos setup para los dos tipos de placas en la libreria TFT_eSPI en el archivo User_Setup_Select.h se ha de seleccionar el que se desea, adjunto foto donde se ve.
 <p>
