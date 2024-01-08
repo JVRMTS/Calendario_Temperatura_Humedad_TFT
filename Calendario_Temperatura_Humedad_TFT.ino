@@ -1,6 +1,6 @@
 /*
  * @JMTS
- * Probado con ESP32 DEVKIT y WEMOS D1 R32 (En la placa WEMOS D1 R32 con forma de arduino 1 para que funcione hay que realizar las modificaciones descritas en la libreria TFT_eSPI)
+ * Probado con ESP32 DEVKIT y WEMOS D1 R32 (palaca con forma de arduino 1 para que funcione hay que realizar las modificaciones descritas en la libreria TFT_eSPI)
  * Reloj con fecha y hora más sensor de temperatura y humedad en pantalla TFT con la libreria TFT_eSPI
  * Sensor de Temperatura-Humedad DHT22 o DHT11 solo has de configurarlo en su script
  * Hora a traves de servidor NTP basado en el ejemplo SimpleTime de la libreria del ESP32
@@ -24,20 +24,21 @@
 unsigned long previosMillis;
 unsigned long previosMillis1;
 unsigned long intervalo = 60000;
-unsigned long intervalo1 = 15000; // INTERVALO PARA MOSTRAR FECHA Y HORA. Cuanto más grande sea tendras menos parpadeo en la pantalla aunque la actualización de la hora sera mas lenta, aquí esta puesto en 15 segundos.
+unsigned long intervalo1 = 15000;
 
 void setup()
 {
   Serial.begin(115200);
   pinMode(LED_PIN, OUTPUT);
-  digitalWrite(LED_PIN, LOW); // Turn onboard LED OFF
+  digitalWrite(LED_PIN, LOW); // Ponemos el LED de la placa en OFF
   
-  dht.begin();
+  // Iniciamos el sensor DHT
+  dht.begin(); 
 
   // Llamamos a la función para configurar la pantalla
   configuracionPantalla();
 
-  // Conexion a la wifi y sincronización del reloj NTP
+  // Conexion a la wifi
   conectarWiFi();
 
   // Configuramos la actualización via OTA
@@ -45,22 +46,22 @@ void setup()
 }
 void loop()
 {
-  //Si se ha perdido la conexión wifi llamamos a la función para conectar de nuevo y configuramos fecha y hora
+  //Si se ha perdido la conexión wifi llamamos a la función para conectar de nuevo
   if (WiFi.isConnected() == false){
     conectarWiFi();
     }
 
-
   unsigned long currentMillis = millis();   
   // Llamamos, cada minuto, a la función para insertar los datos en la base de datos
   if ((unsigned long) (currentMillis - previosMillis) >= intervalo){
-      enviarBD(); // Comentalo si no quieres utilizar la base de datos
+      enviarBD(); // Comentalo si no quieres utilizarlo
       previosMillis = millis();
     }
-  // Llamamos, cada 15 segundos a la función de mostrar pantalla
+  // Llamamos a la función para que se muestre la pantalla cada 15 segundos y asi evitamos que parpadee mucho.
   if ((unsigned long) (currentMillis - previosMillis1) >= intervalo1){
       mostrarPantalla();
       previosMillis1 = millis();
     }
-    ArduinoOTA.handle(); //Llamamos a la actualización via OTA
+  //Llamamos a la actualización via OTA
+  ArduinoOTA.handle(); 
 }
