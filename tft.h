@@ -45,7 +45,7 @@ void mostrarPantalla(){
   tft.setFreeFont(FSSB24);                                                  // Seleccionamos la fuente FreeSansBold24pt7b
   tft.setTextPadding(120);                                                  // Se utiliza para borrar los pixeles antiguos al refrescar la pantalla
   tft.drawString(horMin,xpos,22,GFXFF);                                     // Imprimimos por pantalla la hora y los minutos.
-  tft.drawString(diaS + " " + dia + " " + mes + " " + ano,xpos,70, GFXFF);  // Imprimimos por pantalla la fecha
+  tft.drawString(" " +diaS + " " + dia + " " + mes + " " + ano + " ",xpos,70, GFXFF);  // Imprimimos por pantalla la fecha
   tft.setFreeFont(FSSB18);                                                  // Seleccionamos la fuente FreeSansBold18pt7b
   tft.setTextColor(TFT_YELLOW, TFT_BLACK);                                  // texto en color amarillo y fondo negro.
   tft.drawString(t1 + " | " + t2,xpos,155);		                              // Imprimimos por pantalla la temperatura y la humedad
