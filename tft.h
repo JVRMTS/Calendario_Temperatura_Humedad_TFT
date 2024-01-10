@@ -23,8 +23,8 @@ void zonaFijaPantalla(){
   tft.drawLine(0, 135, 480, 135, TFT_WHITE); // linea horizontal de color blanca
   tft.drawLine(0, 253, 480, 253, TFT_WHITE); // linea horizontal de color blanca
   tft.drawLine(0, 319, 480, 319, TFT_WHITE); // linea horizontal de color blanca
-  tft.pushImage(4,155,CW,CH,th);
-  tft.pushImage(444,155,HW,HH,ht);
+  tft.pushImage(12,155,CW,CH,th);
+  tft.pushImage(438,155,HW,HH,ht);
   tft.pushImage(65,200,SW,SH,sh);
   tft.setTextDatum(TC_DATUM);
   tft.pushImage(xpos, 265, xw, xh, xxx);
