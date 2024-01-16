@@ -7,21 +7,33 @@
 // Configuración de la Ubicación
 // tambien da nombre al puerto de actualizacion via OTA
 
-byte ub = 3;// Ubicación (1-despacho) (2-salon) (3-pruebas) estas las puedes cambiar a lo que desees asi como añadir o quitar.
+byte ub = 6;// Ubicación (1-despacho) (2-salon) (3-dormitorio) (4-resumen) (5-patio)
 
 char* ubicacion(){
   char *ubic;
-  if (ub == 1)
+    if (ub == 1)
   {
-    ubic = "Despacho";
+    ubic = "DESPACHO";
   }
   else if (ub == 2)
   {
-    ubic = "Salon";
+    ubic = "SALON";
   }
   else if (ub == 3)
   {
-    ubic = "Pruebas";
+    ubic = "DORMITORIO";
+  }
+  else if (ub == 4)
+  {
+    ubic = "RESUMEN";
+  }
+  else if (ub == 5)
+  {
+    ubic = "PATIO";
+  }
+  else if (ub == 6)
+  {
+    ubic = "PRUEBAS";
   }
   return ubic;
 }

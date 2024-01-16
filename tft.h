@@ -43,7 +43,7 @@ void mostrarPantalla(){
   int xpos = tft.width() / 2;                                                         // Centro del ancho de pantalla
   tft.setTextColor(TFT_WHITE,TFT_BLACK);                                              // Establece el color de texto y del fondo para el texto  
   tft.setFreeFont(FSSB24);                                                            // Seleccionamos la fuente FreeSansBold24pt7b
-  tft.setTextPadding(120);                                                            // Se utiliza para borrar los pixeles antiguos al refrescar la pantalla
+  tft.setTextPadding(135);                                                            // Se utiliza para borrar los pixeles antiguos al refrescar la pantalla
   tft.drawString(horMin,xpos,22,GFXFF);                                               // Imprimimos por pantalla la hora y los minutos.
   tft.drawString(" " +diaS + " " + dia + " " + mes + " " + ano + " ",xpos,70, GFXFF); // Imprimimos por pantalla la fecha
   tft.setFreeFont(FSSB18);                                                            // Seleccionamos la fuente FreeSansBold18pt7b
