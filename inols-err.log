@@ -1,0 +1,119 @@
+
+
+
+
+
+
+
+Started logging.
+06:48:20.531472 Language server launched with arguments:
+06:48:20.536371   arg[0] = c:\Program Files\Arduino IDE\resources\app\lib\backend\resources\arduino-language-server.exe
+06:48:20.536371   arg[1] = -clangd
+06:48:20.536371   arg[2] = c:\Program Files\Arduino IDE\resources\app\lib\backend\resources\clangd.exe
+06:48:20.536371   arg[3] = -cli-daemon-addr
+06:48:20.536371   arg[4] = localhost:50059
+06:48:20.536371   arg[5] = -cli-daemon-instance
+06:48:20.536371   arg[6] = 1
+06:48:20.536371   arg[7] = -fqbn
+06:48:20.536371   arg[8] = esp32:esp32:esp32:UploadSpeed=921600,CPUFreq=240,FlashFreq=80,FlashMode=qio,FlashSize=4M,PartitionScheme=min_spiffs,DebugLevel=none,PSRAM=enabled,LoopCore=1,EventsCore=1,EraseFlash=none,JTAGAdapter=default
+06:48:20.544822   arg[9] = -skip-libraries-discovery-on-rebuild
+06:48:20.544822   arg[10] = -board-name
+06:48:20.545345   arg[11] = "ESP32 Dev Module"
+06:48:20.545345   arg[12] = -no-real-time-diagnostics
+06:48:20.545345   arg[13] = -log
+06:48:20.545345   arg[14] = -logpath
+06:48:20.545345   arg[15] = c:\Users\User\OneDrive - @JMTS\0 - PROYECTOS EN CURSO\TFT Esp32\TFT\Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen\Calendario_Temperatura_Humedad_TFT
+06:48:20.547273 logging to c:\Users\User\OneDrive - @JMTS\0 - PROYECTOS EN CURSO\TFT Esp32\TFT\Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen\Calendario_Temperatura_Humedad_TFT\inols.log
+06:48:20.667562 [97mLS: : Initial board configuration: esp32:esp32:esp32:UploadSpeed=921600,CPUFreq=240,FlashFreq=80,FlashMode=qio,FlashSize=4M,PartitionScheme=min_spiffs,DebugLevel=none,PSRAM=enabled,LoopCore=1,EventsCore=1,EraseFlash=none,JTAGAdapter=default[0m
+06:48:20.667562 [97mLS: : arduino-language-server.exe Version: 0.7.4 Commit: d620b0b Date: 2023-01-11T15:42:52Z[0m
+06:48:20.667562 [97mLS: : Language server build path: C:\Users\User\AppData\Local\Temp\arduino-language-server1636384470[0m
+06:48:20.667562 [97mLS: : Language server build sketch root: C:\Users\User\AppData\Local\Temp\arduino-language-server1636384470\sketch[0m
+06:48:20.667562 [97mLS: : Language server FULL build path: C:\Users\User\AppData\Local\Temp\arduino-language-server804764323[0m
+06:48:20.674859 IN Elapsed: 262µs
+06:48:21.018419 [92mIDE --> LS REQU initialize 0[0m
+06:48:21.551846 [92m                initialize 0: [93mwrite-locked[0m[0m
+06:48:21.563710 [92m                initialize 0: [93mwrite-unlocked[0m[0m
+06:48:21.609102 [92m                initialize 0: initialization parameters: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{"includeText":true}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"],"completionItem":{}},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"workspaceSymbolProvider":{}},"serverInfo":{"name":"arduino-language-server","version":"0.7.4"}}[0m
+06:48:21.622232 [32mIDE <-- LS RESP initialize 0[0m
+06:48:21.630107 OUT Elapsed: 1.8746ms
+06:48:21.687867 IN Elapsed: 57.7608ms
+06:48:21.687867 [92mIDE --> LS NOTIF initialized[0m
+06:48:21.687867 [92m                 initialized: Notification is not propagated to clangd[0m
+06:48:21.687867 IN Elapsed: 0s
+06:48:21.688868 [92mIDE --> LS NOTIF textDocument/didOpen[0m
+06:48:21.757387 [96mINIT --- : initializing workbench: file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT[0m
+06:48:21.757387 [96mINIT --- : [93mread-locked[0m[0m
+06:48:21.757387 [96mINIT --- : [93mread-unlocked[0m[0m
+06:48:22.097070 [92m                 textDocument/didOpen: [93mwrite-locked[0m[0m
+06:48:22.097070 [92m                 textDocument/didOpen: (throttled: waiting for clangd)[0m
+06:48:22.097070 [92m                 textDocument/didOpen: [93munlocked (waiting clangd)[0m[0m
+06:48:22.293343 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "esp32:esp32:esp32:UploadSpeed=921600,CPUFreq=240,FlashFreq=80,FlashMode=qio,FlashSize=4M,PartitionScheme=min_spiffs,DebugLevel=none,PSRAM=enabled,LoopCore=1,EventsCore=1,EraseFlash=none,JTAGAdapter=default",
+  "sketch_path": "C:\\Users\\User\\OneDrive - @JMTS\\0 - PROYECTOS EN CURSO\\TFT Esp32\\TFT\\Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen\\Calendario_Temperatura_Humedad_TFT",
+  "build_path": "C:\\Users\\User\\AppData\\Local\\Temp\\arduino-language-server804764323",
+  "verbose": true,
+  "create_compilation_database_only": true
+}[0m
+
+
+
+
+
+
+
+Started logging.
+07:08:50.800520 Language server launched with arguments:
+07:08:50.800520   arg[0] = c:\Program Files\Arduino IDE\resources\app\lib\backend\resources\arduino-language-server.exe
+07:08:50.800520   arg[1] = -clangd
+07:08:50.800520   arg[2] = c:\Program Files\Arduino IDE\resources\app\lib\backend\resources\clangd.exe
+07:08:50.800520   arg[3] = -cli-daemon-addr
+07:08:50.800520   arg[4] = localhost:50059
+07:08:50.800520   arg[5] = -cli-daemon-instance
+07:08:50.800520   arg[6] = 1
+07:08:50.800520   arg[7] = -fqbn
+07:08:50.800520   arg[8] = esp32:esp32:esp32:UploadSpeed=921600,CPUFreq=240,FlashFreq=80,FlashMode=qio,FlashSize=4M,PartitionScheme=min_spiffs,DebugLevel=none,PSRAM=enabled,LoopCore=1,EventsCore=1,EraseFlash=none,JTAGAdapter=default
+07:08:50.800520   arg[9] = -skip-libraries-discovery-on-rebuild
+07:08:50.800520   arg[10] = -board-name
+07:08:50.800520   arg[11] = "ESP32 Dev Module"
+07:08:50.800520   arg[12] = -no-real-time-diagnostics
+07:08:50.800520   arg[13] = -log
+07:08:50.800520   arg[14] = -logpath
+07:08:50.800520   arg[15] = c:\Users\User\OneDrive - @JMTS\0 - PROYECTOS EN CURSO\TFT Esp32\TFT\Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen\Calendario_Temperatura_Humedad_TFT
+07:08:50.819826 logging to c:\Users\User\OneDrive - @JMTS\0 - PROYECTOS EN CURSO\TFT Esp32\TFT\Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen\Calendario_Temperatura_Humedad_TFT\inols.log
+07:08:50.820335 [97mLS: : Initial board configuration: esp32:esp32:esp32:UploadSpeed=921600,CPUFreq=240,FlashFreq=80,FlashMode=qio,FlashSize=4M,PartitionScheme=min_spiffs,DebugLevel=none,PSRAM=enabled,LoopCore=1,EventsCore=1,EraseFlash=none,JTAGAdapter=default[0m
+07:08:50.820335 [97mLS: : arduino-language-server.exe Version: 0.7.4 Commit: d620b0b Date: 2023-01-11T15:42:52Z[0m
+07:08:50.820335 [97mLS: : Language server build path: C:\Users\User\AppData\Local\Temp\arduino-language-server539757707[0m
+07:08:50.820335 [97mLS: : Language server build sketch root: C:\Users\User\AppData\Local\Temp\arduino-language-server539757707\sketch[0m
+07:08:50.820335 [97mLS: : Language server FULL build path: C:\Users\User\AppData\Local\Temp\arduino-language-server4150402993[0m
+07:08:50.828799 IN Elapsed: 0s
+07:08:50.829307 [92mIDE --> LS REQU initialize 0[0m
+07:08:50.829307 [92m                initialize 0: [93mwrite-locked[0m[0m
+07:08:50.831814 [92m                initialize 0: [93mwrite-unlocked[0m[0m
+07:08:50.831814 [92m                initialize 0: initialization parameters: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{"includeText":true}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"],"completionItem":{}},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"workspaceSymbolProvider":{}},"serverInfo":{"name":"arduino-language-server","version":"0.7.4"}}[0m
+07:08:50.831814 [32mIDE <-- LS RESP initialize 0[0m
+07:08:50.831814 OUT Elapsed: 0s
+07:08:50.840914 [96mINIT --- : initializing workbench: file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT[0m
+07:08:50.840914 [96mINIT --- : [93mread-locked[0m[0m
+07:08:50.840914 [96mINIT --- : [93mread-unlocked[0m[0m
+07:08:50.853177 IN Elapsed: 21.3629ms
+07:08:50.853177 [92mIDE --> LS NOTIF initialized[0m
+07:08:50.853687 [92m                 initialized: Notification is not propagated to clangd[0m
+07:08:50.853687 IN Elapsed: 0s
+07:08:50.853687 [92mIDE --> LS NOTIF textDocument/didOpen[0m
+07:08:50.853687 [92m                 textDocument/didOpen: [93mwrite-locked[0m[0m
+07:08:50.853687 [92m                 textDocument/didOpen: (throttled: waiting for clangd)[0m
+07:08:50.853687 [92m                 textDocument/didOpen: [93munlocked (waiting clangd)[0m[0m
+07:08:50.879018 listen tcp 127.0.0.1:6060: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+07:08:51.207934 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "esp32:esp32:esp32:UploadSpeed=921600,CPUFreq=240,FlashFreq=80,FlashMode=qio,FlashSize=4M,PartitionScheme=min_spiffs,DebugLevel=none,PSRAM=enabled,LoopCore=1,EventsCore=1,EraseFlash=none,JTAGAdapter=default",
+  "sketch_path": "C:\\Users\\User\\OneDrive - @JMTS\\0 - PROYECTOS EN CURSO\\TFT Esp32\\TFT\\Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen\\Calendario_Temperatura_Humedad_TFT",
+  "build_path": "C:\\Users\\User\\AppData\\Local\\Temp\\arduino-language-server4150402993",
+  "verbose": true,
+  "create_compilation_database_only": true
+}[0m

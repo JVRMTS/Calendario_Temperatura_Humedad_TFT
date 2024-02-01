@@ -47,4 +47,4 @@ char *passwordOTA = "****";    // Pon una contraseña para la actualización via
 
 //Configuración del Servidor Web
 String dominio = "tu_dominio.com";                          // Pon el dominio que vayas a utilizar
-String url = "http://" + dominio + "/config/inse_post.php"; // Dirección web del servidor con el dominio insertado
+String url = "http://" + dominio + "/config/insertar_post.php"; // Dirección web del servidor con el dominio insertado
