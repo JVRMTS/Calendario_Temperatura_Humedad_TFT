@@ -301,3 +301,103 @@ Content-Length: 36
 {"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"47/48","percentage":97}}}Content-Length: 107
 
 {"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"end"}}}
+<<<
+Content-Length: 333
+
+{"jsonrpc":"2.0","id":11,"method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/configuracion.h"},"position":{"line":42,"character":62}}}
+>>>
+Content-Length: 37
+
+{"jsonrpc":"2.0","id":11,"result":[]}
+<<<
+Content-Length: 395
+
+{"jsonrpc":"2.0","id":12,"method":"textDocument/codeAction","params":{"textDocument":{"uri":"file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/configuracion.h"},"range":{"start":{"line":42,"character":62},"end":{"line":42,"character":62}},"context":{"diagnostics":[]}}}
+>>>
+Content-Length: 37
+
+{"jsonrpc":"2.0","id":12,"result":[]}
+<<<
+Content-Length: 291
+
+{"jsonrpc":"2.0","id":13,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/conexionWiFi.h"}}}
+>>>
+Content-Length: 248
+
+{"jsonrpc":"2.0","id":13,"result":[{"name":"conectarWiFi","detail":"void ()","kind":12,"range":{"start":{"line":7,"character":0},"end":{"line":18,"character":1}},"selectionRange":{"start":{"line":7,"character":5},"end":{"line":7,"character":17}}}]}
+<<<
+Content-Length: 292
+
+{"jsonrpc":"2.0","id":14,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/configuracion.h"}}}
+>>>
+Content-Length: 1501
+
+{"jsonrpc":"2.0","id":14,"result":[{"name":"ub","detail":"int","kind":13,"range":{"start":{"line":9,"character":0},"end":{"line":9,"character":7}},"selectionRange":{"start":{"line":9,"character":5},"end":{"line":9,"character":7}}},{"name":"ubicacion","detail":"char *()","kind":12,"range":{"start":{"line":11,"character":0},"end":{"line":38,"character":1}},"selectionRange":{"start":{"line":11,"character":6},"end":{"line":11,"character":15}}},{"name":"ssid","detail":"const char *","kind":13,"range":{"start":{"line":41,"character":0},"end":{"line":41,"character":25}},"selectionRange":{"start":{"line":41,"character":12},"end":{"line":41,"character":16}}},{"name":"password","detail":"const char *","kind":13,"range":{"start":{"line":42,"character":0},"end":{"line":42,"character":29}},"selectionRange":{"start":{"line":42,"character":12},"end":{"line":42,"character":20}}},{"name":"passwordOTA","detail":"char *","kind":13,"range":{"start":{"line":45,"character":0},"end":{"line":45,"character":26}},"selectionRange":{"start":{"line":45,"character":6},"end":{"line":45,"character":17}}},{"name":"dominio","detail":"int","kind":13,"range":{"start":{"line":48,"character":0},"end":{"line":48,"character":14}},"selectionRange":{"start":{"line":48,"character":7},"end":{"line":48,"character":14}}},{"name":"url","detail":"int","kind":13,"range":{"start":{"line":49,"character":0},"end":{"line":49,"character":10}},"selectionRange":{"start":{"line":49,"character":7},"end":{"line":49,"character":10}}}]}
+<<<
+Content-Length: 282
+
+{"jsonrpc":"2.0","id":15,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/ota.h"}}}
+>>>
+Content-Length: 252
+
+{"jsonrpc":"2.0","id":15,"result":[{"name":"actualizacionOTA","detail":"void ()","kind":12,"range":{"start":{"line":8,"character":0},"end":{"line":53,"character":1}},"selectionRange":{"start":{"line":8,"character":5},"end":{"line":8,"character":21}}}]}
+<<<
+Content-Length: 288
+
+{"jsonrpc":"2.0","id":16,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/sensorDHT.h"}}}
+>>>
+Content-Length: 2289
+
+{"jsonrpc":"2.0","id":16,"result":[{"name":"dht","detail":"DHT","kind":13,"range":{"start":{"line":11,"character":0},"end":{"line":11,"character":7}},"selectionRange":{"start":{"line":11,"character":4},"end":{"line":11,"character":7}}},{"name":"h","detail":"double","kind":13,"range":{"start":{"line":13,"character":0},"end":{"line":13,"character":8}},"selectionRange":{"start":{"line":13,"character":7},"end":{"line":13,"character":8}}},{"name":"Hum","detail":"String","kind":13,"range":{"start":{"line":14,"character":0},"end":{"line":14,"character":10}},"selectionRange":{"start":{"line":14,"character":7},"end":{"line":14,"character":10}}},{"name":"t","detail":"double","kind":13,"range":{"start":{"line":15,"character":0},"end":{"line":15,"character":8}},"selectionRange":{"start":{"line":15,"character":7},"end":{"line":15,"character":8}}},{"name":"Temp","detail":"String","kind":13,"range":{"start":{"line":16,"character":0},"end":{"line":16,"character":11}},"selectionRange":{"start":{"line":16,"character":7},"end":{"line":16,"character":11}}},{"name":"hic","detail":"double","kind":13,"range":{"start":{"line":17,"character":0},"end":{"line":17,"character":10}},"selectionRange":{"start":{"line":17,"character":7},"end":{"line":17,"character":10}}},{"name":"TeR","detail":"String","kind":13,"range":{"start":{"line":18,"character":0},"end":{"line":18,"character":10}},"selectionRange":{"start":{"line":18,"character":7},"end":{"line":18,"character":10}}},{"name":"t1","detail":"String","kind":13,"range":{"start":{"line":19,"character":0},"end":{"line":19,"character":9}},"selectionRange":{"start":{"line":19,"character":7},"end":{"line":19,"character":9}}},{"name":"t2","detail":"String","kind":13,"range":{"start":{"line":20,"character":0},"end":{"line":20,"character":9}},"selectionRange":{"start":{"line":20,"character":7},"end":{"line":20,"character":9}}},{"name":"t3","detail":"String","kind":13,"range":{"start":{"line":21,"character":0},"end":{"line":21,"character":9}},"selectionRange":{"start":{"line":21,"character":7},"end":{"line":21,"character":9}}},{"name":"temperatura","detail":"void ()","kind":12,"range":{"start":{"line":23,"character":0},"end":{"line":33,"character":1}},"selectionRange":{"start":{"line":23,"character":5},"end":{"line":23,"character":16}}}]}
+<<<
+Content-Length: 282
+
+{"jsonrpc":"2.0","id":17,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/tft.h"}}}
+>>>
+Content-Length: 1108
+
+{"jsonrpc":"2.0","id":17,"result":[{"name":"tft","detail":"TFT_eSPI","kind":13,"range":{"start":{"line":14,"character":0},"end":{"line":14,"character":25}},"selectionRange":{"start":{"line":14,"character":9},"end":{"line":14,"character":12}}},{"name":"xpos","detail":"int","kind":13,"range":{"start":{"line":15,"character":0},"end":{"line":15,"character":26}},"selectionRange":{"start":{"line":15,"character":4},"end":{"line":15,"character":8}}},{"name":"zonaFijaPantalla","detail":"void ()","kind":12,"range":{"start":{"line":18,"character":0},"end":{"line":30,"character":1}},"selectionRange":{"start":{"line":18,"character":5},"end":{"line":18,"character":21}}},{"name":"configuracionPantalla","detail":"void ()","kind":12,"range":{"start":{"line":33,"character":0},"end":{"line":37,"character":1}},"selectionRange":{"start":{"line":33,"character":5},"end":{"line":33,"character":26}}},{"name":"mostrarPantalla","detail":"void ()","kind":12,"range":{"start":{"line":39,"character":0},"end":{"line":52,"character":1}},"selectionRange":{"start":{"line":39,"character":5},"end":{"line":39,"character":20}}}]}
+<<<
+Content-Length: 284
+
+{"jsonrpc":"2.0","id":18,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/ico_h.h"}}}
+>>>
+Content-Length: 668
+
+{"jsonrpc":"2.0","id":18,"result":[{"name":"HH","detail":"const int","kind":13,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":17}},"selectionRange":{"start":{"line":0,"character":15},"end":{"line":0,"character":17}}},{"name":"HW","detail":"const int","kind":13,"range":{"start":{"line":1,"character":0},"end":{"line":1,"character":17}},"selectionRange":{"start":{"line":1,"character":15},"end":{"line":1,"character":17}}},{"name":"ht","detail":"const unsigned short[2048]","kind":13,"range":{"start":{"line":4,"character":0},"end":{"line":4,"character":29}},"selectionRange":{"start":{"line":4,"character":21},"end":{"line":4,"character":23}}}]}
+<<<
+Content-Length: 284
+
+{"jsonrpc":"2.0","id":19,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/ico_t.h"}}}
+>>>
+Content-Length: 668
+
+{"jsonrpc":"2.0","id":19,"result":[{"name":"CH","detail":"const int","kind":13,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":17}},"selectionRange":{"start":{"line":0,"character":15},"end":{"line":0,"character":17}}},{"name":"CW","detail":"const int","kind":13,"range":{"start":{"line":1,"character":0},"end":{"line":1,"character":17}},"selectionRange":{"start":{"line":1,"character":15},"end":{"line":1,"character":17}}},{"name":"th","detail":"const unsigned short[2048]","kind":13,"range":{"start":{"line":4,"character":0},"end":{"line":4,"character":29}},"selectionRange":{"start":{"line":4,"character":21},"end":{"line":4,"character":23}}}]}
+<<<
+Content-Length: 285
+
+{"jsonrpc":"2.0","id":20,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/ico_st.h"}}}
+>>>
+Content-Length: 667
+
+{"jsonrpc":"2.0","id":20,"result":[{"name":"SH","detail":"const int","kind":13,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":16}},"selectionRange":{"start":{"line":0,"character":14},"end":{"line":0,"character":16}}},{"name":"SW","detail":"const int","kind":13,"range":{"start":{"line":1,"character":0},"end":{"line":1,"character":16}},"selectionRange":{"start":{"line":1,"character":14},"end":{"line":1,"character":16}}},{"name":"sh","detail":"const unsigned short[960]","kind":13,"range":{"start":{"line":4,"character":0},"end":{"line":4,"character":28}},"selectionRange":{"start":{"line":4,"character":21},"end":{"line":4,"character":23}}}]}
+<<<
+Content-Length: 282
+
+{"jsonrpc":"2.0","id":21,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/tft.h"}}}
+>>>
+Content-Length: 1108
+
+{"jsonrpc":"2.0","id":21,"result":[{"name":"tft","detail":"TFT_eSPI","kind":13,"range":{"start":{"line":14,"character":0},"end":{"line":14,"character":25}},"selectionRange":{"start":{"line":14,"character":9},"end":{"line":14,"character":12}}},{"name":"xpos","detail":"int","kind":13,"range":{"start":{"line":15,"character":0},"end":{"line":15,"character":26}},"selectionRange":{"start":{"line":15,"character":4},"end":{"line":15,"character":8}}},{"name":"zonaFijaPantalla","detail":"void ()","kind":12,"range":{"start":{"line":18,"character":0},"end":{"line":30,"character":1}},"selectionRange":{"start":{"line":18,"character":5},"end":{"line":18,"character":21}}},{"name":"configuracionPantalla","detail":"void ()","kind":12,"range":{"start":{"line":33,"character":0},"end":{"line":37,"character":1}},"selectionRange":{"start":{"line":33,"character":5},"end":{"line":33,"character":26}}},{"name":"mostrarPantalla","detail":"void ()","kind":12,"range":{"start":{"line":39,"character":0},"end":{"line":52,"character":1}},"selectionRange":{"start":{"line":39,"character":5},"end":{"line":39,"character":20}}}]}
+<<<
+Content-Length: 311
+
+{"jsonrpc":"2.0","id":22,"method":"textDocument/hover","params":{"textDocument":{"uri":"file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/tft.h"},"position":{"line":48,"character":59}}}
+>>>
+Content-Length: 39
+
+{"jsonrpc":"2.0","id":22,"result":null}
+<<<
+Content-Length: 63
+
+{"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":22}}

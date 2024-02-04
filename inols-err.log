@@ -950,3 +950,306 @@ Started logging.
 09:00:54.179308 [91m                            $/progress: backgroundIndexProgress END [0m
 09:00:54.179812 [92mIDE <-- LS NOTIF $/progress[0m
 09:00:54.179812 OUT Elapsed: 0s
+09:02:19.895174 IN Elapsed: 2m9.0043644s
+09:02:19.895174 [92mIDE --> LS REQU textDocument/documentHighlight 11[0m
+09:02:19.895174 [92m                textDocument/documentHighlight 11: [93mread-locked[0m[0m
+09:02:19.900493 [92m                textDocument/documentHighlight 11: URI: file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/configuracion.h -> file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/configuracion.h[0m
+09:02:19.901537 [92m                textDocument/documentHighlight 11: file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/configuracion.h:42:62 -> file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/configuracion.h:43:62[0m
+09:02:19.901537 [91mIDE     LS --> Clangd REQU textDocument/documentHighlight 12[0m
+09:02:19.901537 OUT Elapsed: 0s
+09:02:19.905610 IN Elapsed: 1m25.7263019s
+09:02:19.905610 [31mIDE     LS <-- Clangd RESP textDocument/documentHighlight 12[0m
+09:02:19.905610 [92m                textDocument/documentHighlight 11: [93mread-unlocked[0m[0m
+09:02:19.905610 [32mIDE <-- LS RESP textDocument/documentHighlight 11[0m
+09:02:19.906115 OUT Elapsed: 0s
+09:02:20.110888 IN Elapsed: 204.7728ms
+09:02:20.111882 [92mIDE --> LS REQU textDocument/codeAction 12[0m
+09:02:20.112336 [92m                textDocument/codeAction 12: [93mread-locked[0m[0m
+09:02:20.112336 [92m                textDocument/codeAction 12: --> codeAction(file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/configuracion.h:42:62)[0m
+09:02:20.114412 [92m                textDocument/codeAction 12: URI: file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/configuracion.h -> file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/configuracion.h[0m
+09:02:20.115990 [92m                textDocument/codeAction 12:     --> codeAction(file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/configuracion.h:42:62)[0m
+09:02:20.115990 [91mIDE     LS --> Clangd REQU textDocument/codeAction 13[0m
+09:02:20.115990 OUT Elapsed: 0s
+09:02:20.116511 IN Elapsed: 210.9007ms
+09:02:20.116511 [31mIDE     LS <-- Clangd RESP textDocument/codeAction 13[0m
+09:02:20.116511 [92m                textDocument/codeAction 12: [93mread-unlocked[0m[0m
+09:02:20.116511 [32mIDE <-- LS RESP textDocument/codeAction 12[0m
+09:02:20.116511 OUT Elapsed: 0s
+09:02:24.262178 IN Elapsed: 4.1456676s
+09:02:24.263179 [92mIDE --> LS REQU textDocument/documentSymbol 13[0m
+09:02:24.263329 [92m                textDocument/documentSymbol 13: [93mread-locked[0m[0m
+09:02:24.270539 [92m                textDocument/documentSymbol 13: URI: file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/conexionWiFi.h -> file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/conexionWiFi.h[0m
+09:02:24.270539 [91mIDE     LS --> Clangd REQU textDocument/documentSymbol 14[0m
+09:02:24.271161 OUT Elapsed: 621.5µs
+09:02:24.409368 IN Elapsed: 4.2928577s
+09:02:24.410193 [31mIDE     LS <-- Clangd RESP textDocument/documentSymbol 14[0m
+09:02:24.410193 [92m                textDocument/documentSymbol 13: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/conexionWiFi.h (1 document symbols)[0m
+09:02:24.410193 [92m                textDocument/documentSymbol 13:   > convert SymbolKind:Function 8:0-19:1[0m
+09:02:24.415188 [92m                textDocument/documentSymbol 13: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/conexionWiFi.h:8:0-19:1 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/conexionWiFi.h:7:0-18:1 (.cpp/.h)[0m
+09:02:24.417823 [92m                textDocument/documentSymbol 13: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/conexionWiFi.h:8:5-8:17 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/conexionWiFi.h:7:5-7:17 (.cpp/.h)[0m
+09:02:24.417823 [92m                textDocument/documentSymbol 13: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/conexionWiFi.h (0 document symbols)[0m
+09:02:24.417823 [92m                textDocument/documentSymbol 13: [93mread-unlocked[0m[0m
+09:02:24.417823 [32mIDE <-- LS RESP textDocument/documentSymbol 13[0m
+09:02:24.417823 OUT Elapsed: 0s
+09:02:26.283017 IN Elapsed: 1.8651938s
+09:02:26.283017 [92mIDE --> LS REQU textDocument/documentSymbol 14[0m
+09:02:26.283017 [92m                textDocument/documentSymbol 14: [93mread-locked[0m[0m
+09:02:26.284579 [92m                textDocument/documentSymbol 14: URI: file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/configuracion.h -> file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/configuracion.h[0m
+09:02:26.284579 [91mIDE     LS --> Clangd REQU textDocument/documentSymbol 15[0m
+09:02:26.284579 OUT Elapsed: 0s
+09:02:26.288998 IN Elapsed: 1.8791233s
+09:02:26.288998 [31mIDE     LS <-- Clangd RESP textDocument/documentSymbol 15[0m
+09:02:26.288998 [92m                textDocument/documentSymbol 14: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/configuracion.h (7 document symbols)[0m
+09:02:26.288998 [92m                textDocument/documentSymbol 14:   > convert SymbolKind:Variable 10:0-10:7[0m
+09:02:26.291269 [92m                textDocument/documentSymbol 14: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/configuracion.h:10:0-10:7 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/configuracion.h:9:0-9:7 (.cpp/.h)[0m
+09:02:26.294186 [92m                textDocument/documentSymbol 14: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/configuracion.h:10:5-10:7 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/configuracion.h:9:5-9:7 (.cpp/.h)[0m
+09:02:26.294186 [92m                textDocument/documentSymbol 14: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/configuracion.h (0 document symbols)[0m
+09:02:26.294186 [92m                textDocument/documentSymbol 14:   > convert SymbolKind:Function 12:0-39:1[0m
+09:02:26.296333 [92m                textDocument/documentSymbol 14: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/configuracion.h:12:0-39:1 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/configuracion.h:11:0-38:1 (.cpp/.h)[0m
+09:02:26.298473 [92m                textDocument/documentSymbol 14: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/configuracion.h:12:6-12:15 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/configuracion.h:11:6-11:15 (.cpp/.h)[0m
+09:02:26.298473 [92m                textDocument/documentSymbol 14: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/configuracion.h (0 document symbols)[0m
+09:02:26.298473 [92m                textDocument/documentSymbol 14:   > convert SymbolKind:Variable 42:0-42:25[0m
+09:02:26.300644 [92m                textDocument/documentSymbol 14: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/configuracion.h:42:0-42:25 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/configuracion.h:41:0-41:25 (.cpp/.h)[0m
+09:02:26.302845 [92m                textDocument/documentSymbol 14: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/configuracion.h:42:12-42:16 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/configuracion.h:41:12-41:16 (.cpp/.h)[0m
+09:02:26.302845 [92m                textDocument/documentSymbol 14: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/configuracion.h (0 document symbols)[0m
+09:02:26.302845 [92m                textDocument/documentSymbol 14:   > convert SymbolKind:Variable 43:0-43:29[0m
+09:02:26.304931 [92m                textDocument/documentSymbol 14: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/configuracion.h:43:0-43:29 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/configuracion.h:42:0-42:29 (.cpp/.h)[0m
+09:02:26.307057 [92m                textDocument/documentSymbol 14: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/configuracion.h:43:12-43:20 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/configuracion.h:42:12-42:20 (.cpp/.h)[0m
+09:02:26.307057 [92m                textDocument/documentSymbol 14: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/configuracion.h (0 document symbols)[0m
+09:02:26.307576 [92m                textDocument/documentSymbol 14:   > convert SymbolKind:Variable 46:0-46:26[0m
+09:02:26.309691 [92m                textDocument/documentSymbol 14: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/configuracion.h:46:0-46:26 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/configuracion.h:45:0-45:26 (.cpp/.h)[0m
+09:02:26.311791 [92m                textDocument/documentSymbol 14: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/configuracion.h:46:6-46:17 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/configuracion.h:45:6-45:17 (.cpp/.h)[0m
+09:02:26.311791 [92m                textDocument/documentSymbol 14: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/configuracion.h (0 document symbols)[0m
+09:02:26.311791 [92m                textDocument/documentSymbol 14:   > convert SymbolKind:Variable 49:0-49:14[0m
+09:02:26.313903 [92m                textDocument/documentSymbol 14: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/configuracion.h:49:0-49:14 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/configuracion.h:48:0-48:14 (.cpp/.h)[0m
+09:02:26.316085 [92m                textDocument/documentSymbol 14: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/configuracion.h:49:7-49:14 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/configuracion.h:48:7-48:14 (.cpp/.h)[0m
+09:02:26.316085 [92m                textDocument/documentSymbol 14: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/configuracion.h (0 document symbols)[0m
+09:02:26.316085 [92m                textDocument/documentSymbol 14:   > convert SymbolKind:Variable 50:0-50:10[0m
+09:02:26.318196 [92m                textDocument/documentSymbol 14: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/configuracion.h:50:0-50:10 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/configuracion.h:49:0-49:10 (.cpp/.h)[0m
+09:02:26.320333 [92m                textDocument/documentSymbol 14: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/configuracion.h:50:7-50:10 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/configuracion.h:49:7-49:10 (.cpp/.h)[0m
+09:02:26.320333 [92m                textDocument/documentSymbol 14: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/configuracion.h (0 document symbols)[0m
+09:02:26.320333 [92m                textDocument/documentSymbol 14: [93mread-unlocked[0m[0m
+09:02:26.320507 [32mIDE <-- LS RESP textDocument/documentSymbol 14[0m
+09:02:26.320507 OUT Elapsed: 0s
+09:02:33.962903 IN Elapsed: 7.6423967s
+09:02:33.962903 [92mIDE --> LS REQU textDocument/documentSymbol 15[0m
+09:02:33.962903 [92m                textDocument/documentSymbol 15: [93mread-locked[0m[0m
+09:02:33.964484 [92m                textDocument/documentSymbol 15: URI: file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/ota.h -> file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ota.h[0m
+09:02:33.964484 [91mIDE     LS --> Clangd REQU textDocument/documentSymbol 16[0m
+09:02:33.964484 OUT Elapsed: 0s
+09:02:34.110511 IN Elapsed: 7.8215131s
+09:02:34.110511 [31mIDE     LS <-- Clangd RESP textDocument/documentSymbol 16[0m
+09:02:34.110511 [92m                textDocument/documentSymbol 15: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ota.h (1 document symbols)[0m
+09:02:34.110511 [92m                textDocument/documentSymbol 15:   > convert SymbolKind:Function 9:0-54:1[0m
+09:02:34.112606 [92m                textDocument/documentSymbol 15: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ota.h:9:0-54:1 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/ota.h:8:0-53:1 (.cpp/.h)[0m
+09:02:34.114737 [92m                textDocument/documentSymbol 15: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ota.h:9:5-9:21 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/ota.h:8:5-8:21 (.cpp/.h)[0m
+09:02:34.114737 [92m                textDocument/documentSymbol 15: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ota.h (0 document symbols)[0m
+09:02:34.114737 [92m                textDocument/documentSymbol 15: [93mread-unlocked[0m[0m
+09:02:34.114737 [32mIDE <-- LS RESP textDocument/documentSymbol 15[0m
+09:02:34.114737 OUT Elapsed: 0s
+09:02:39.873927 IN Elapsed: 5.7591903s
+09:02:39.873927 [92mIDE --> LS REQU textDocument/documentSymbol 16[0m
+09:02:39.873927 [92m                textDocument/documentSymbol 16: [93mread-locked[0m[0m
+09:02:39.876093 [92m                textDocument/documentSymbol 16: URI: file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/sensorDHT.h -> file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h[0m
+09:02:39.876093 [91mIDE     LS --> Clangd REQU textDocument/documentSymbol 17[0m
+09:02:39.879205 OUT Elapsed: 3.1111ms
+09:02:40.023226 IN Elapsed: 5.9127149s
+09:02:40.023226 [31mIDE     LS <-- Clangd RESP textDocument/documentSymbol 17[0m
+09:02:40.023226 [92m                textDocument/documentSymbol 16: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h (11 document symbols)[0m
+09:02:40.023226 [92m                textDocument/documentSymbol 16:   > convert SymbolKind:Variable 12:0-12:7[0m
+09:02:40.027227 [92m                textDocument/documentSymbol 16: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h:12:0-12:7 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/sensorDHT.h:11:0-11:7 (.cpp/.h)[0m
+09:02:40.031226 [92m                textDocument/documentSymbol 16: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h:12:4-12:7 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/sensorDHT.h:11:4-11:7 (.cpp/.h)[0m
+09:02:40.031226 [92m                textDocument/documentSymbol 16: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h (0 document symbols)[0m
+09:02:40.031226 [92m                textDocument/documentSymbol 16:   > convert SymbolKind:Variable 14:0-14:8[0m
+09:02:40.034227 [92m                textDocument/documentSymbol 16: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h:14:0-14:8 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/sensorDHT.h:13:0-13:8 (.cpp/.h)[0m
+09:02:40.036226 [92m                textDocument/documentSymbol 16: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h:14:7-14:8 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/sensorDHT.h:13:7-13:8 (.cpp/.h)[0m
+09:02:40.036226 [92m                textDocument/documentSymbol 16: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h (0 document symbols)[0m
+09:02:40.036226 [92m                textDocument/documentSymbol 16:   > convert SymbolKind:Variable 15:0-15:10[0m
+09:02:40.039226 [92m                textDocument/documentSymbol 16: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h:15:0-15:10 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/sensorDHT.h:14:0-14:10 (.cpp/.h)[0m
+09:02:40.042226 [92m                textDocument/documentSymbol 16: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h:15:7-15:10 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/sensorDHT.h:14:7-14:10 (.cpp/.h)[0m
+09:02:40.042226 [92m                textDocument/documentSymbol 16: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h (0 document symbols)[0m
+09:02:40.042226 [92m                textDocument/documentSymbol 16:   > convert SymbolKind:Variable 16:0-16:8[0m
+09:02:40.047226 [92m                textDocument/documentSymbol 16: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h:16:0-16:8 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/sensorDHT.h:15:0-15:8 (.cpp/.h)[0m
+09:02:40.050226 [92m                textDocument/documentSymbol 16: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h:16:7-16:8 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/sensorDHT.h:15:7-15:8 (.cpp/.h)[0m
+09:02:40.050226 [92m                textDocument/documentSymbol 16: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h (0 document symbols)[0m
+09:02:40.050226 [92m                textDocument/documentSymbol 16:   > convert SymbolKind:Variable 17:0-17:11[0m
+09:02:40.052226 [92m                textDocument/documentSymbol 16: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h:17:0-17:11 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/sensorDHT.h:16:0-16:11 (.cpp/.h)[0m
+09:02:40.055226 [92m                textDocument/documentSymbol 16: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h:17:7-17:11 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/sensorDHT.h:16:7-16:11 (.cpp/.h)[0m
+09:02:40.055226 [92m                textDocument/documentSymbol 16: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h (0 document symbols)[0m
+09:02:40.055226 [92m                textDocument/documentSymbol 16:   > convert SymbolKind:Variable 18:0-18:10[0m
+09:02:40.058226 [92m                textDocument/documentSymbol 16: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h:18:0-18:10 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/sensorDHT.h:17:0-17:10 (.cpp/.h)[0m
+09:02:40.061227 [92m                textDocument/documentSymbol 16: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h:18:7-18:10 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/sensorDHT.h:17:7-17:10 (.cpp/.h)[0m
+09:02:40.061227 [92m                textDocument/documentSymbol 16: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h (0 document symbols)[0m
+09:02:40.062227 [92m                textDocument/documentSymbol 16:   > convert SymbolKind:Variable 19:0-19:10[0m
+09:02:40.064226 [92m                textDocument/documentSymbol 16: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h:19:0-19:10 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/sensorDHT.h:18:0-18:10 (.cpp/.h)[0m
+09:02:40.067226 [92m                textDocument/documentSymbol 16: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h:19:7-19:10 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/sensorDHT.h:18:7-18:10 (.cpp/.h)[0m
+09:02:40.067226 [92m                textDocument/documentSymbol 16: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h (0 document symbols)[0m
+09:02:40.067226 [92m                textDocument/documentSymbol 16:   > convert SymbolKind:Variable 20:0-20:9[0m
+09:02:40.070226 [92m                textDocument/documentSymbol 16: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h:20:0-20:9 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/sensorDHT.h:19:0-19:9 (.cpp/.h)[0m
+09:02:40.072226 [92m                textDocument/documentSymbol 16: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h:20:7-20:9 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/sensorDHT.h:19:7-19:9 (.cpp/.h)[0m
+09:02:40.072226 [92m                textDocument/documentSymbol 16: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h (0 document symbols)[0m
+09:02:40.072226 [92m                textDocument/documentSymbol 16:   > convert SymbolKind:Variable 21:0-21:9[0m
+09:02:40.075226 [92m                textDocument/documentSymbol 16: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h:21:0-21:9 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/sensorDHT.h:20:0-20:9 (.cpp/.h)[0m
+09:02:40.079227 [92m                textDocument/documentSymbol 16: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h:21:7-21:9 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/sensorDHT.h:20:7-20:9 (.cpp/.h)[0m
+09:02:40.079227 [92m                textDocument/documentSymbol 16: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h (0 document symbols)[0m
+09:02:40.079227 [92m                textDocument/documentSymbol 16:   > convert SymbolKind:Variable 22:0-22:9[0m
+09:02:40.082231 [92m                textDocument/documentSymbol 16: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h:22:0-22:9 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/sensorDHT.h:21:0-21:9 (.cpp/.h)[0m
+09:02:40.084226 [92m                textDocument/documentSymbol 16: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h:22:7-22:9 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/sensorDHT.h:21:7-21:9 (.cpp/.h)[0m
+09:02:40.084226 [92m                textDocument/documentSymbol 16: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h (0 document symbols)[0m
+09:02:40.084226 [92m                textDocument/documentSymbol 16:   > convert SymbolKind:Function 24:0-34:1[0m
+09:02:40.087231 [92m                textDocument/documentSymbol 16: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h:24:0-34:1 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/sensorDHT.h:23:0-33:1 (.cpp/.h)[0m
+09:02:40.089231 [92m                textDocument/documentSymbol 16: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h:24:5-24:16 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/sensorDHT.h:23:5-23:16 (.cpp/.h)[0m
+09:02:40.089231 [92m                textDocument/documentSymbol 16: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/sensorDHT.h (0 document symbols)[0m
+09:02:40.089231 [92m                textDocument/documentSymbol 16: [93mread-unlocked[0m[0m
+09:02:40.089231 [32mIDE <-- LS RESP textDocument/documentSymbol 16[0m
+09:02:40.089231 OUT Elapsed: 0s
+09:03:43.075216 IN Elapsed: 1m2.9859849s
+09:03:43.075216 [92mIDE --> LS REQU textDocument/documentSymbol 17[0m
+09:03:43.075216 [92m                textDocument/documentSymbol 17: [93mread-locked[0m[0m
+09:03:43.076800 [92m                textDocument/documentSymbol 17: URI: file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/tft.h -> file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h[0m
+09:03:43.076800 [91mIDE     LS --> Clangd REQU textDocument/documentSymbol 18[0m
+09:03:43.076800 OUT Elapsed: 0s
+09:03:43.280010 IN Elapsed: 1m3.2567841s
+09:03:43.280519 [31mIDE     LS <-- Clangd RESP textDocument/documentSymbol 18[0m
+09:03:43.280519 [92m                textDocument/documentSymbol 17: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h (5 document symbols)[0m
+09:03:43.280519 [92m                textDocument/documentSymbol 17:   > convert SymbolKind:Variable 15:0-15:25[0m
+09:03:43.282654 [92m                textDocument/documentSymbol 17: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h:15:0-15:25 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/tft.h:14:0-14:25 (.cpp/.h)[0m
+09:03:43.285299 [92m                textDocument/documentSymbol 17: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h:15:9-15:12 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/tft.h:14:9-14:12 (.cpp/.h)[0m
+09:03:43.285299 [92m                textDocument/documentSymbol 17: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h (0 document symbols)[0m
+09:03:43.285299 [92m                textDocument/documentSymbol 17:   > convert SymbolKind:Variable 16:0-16:26[0m
+09:03:43.287413 [92m                textDocument/documentSymbol 17: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h:16:0-16:26 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/tft.h:15:0-15:26 (.cpp/.h)[0m
+09:03:43.289525 [92m                textDocument/documentSymbol 17: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h:16:4-16:8 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/tft.h:15:4-15:8 (.cpp/.h)[0m
+09:03:43.289525 [92m                textDocument/documentSymbol 17: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h (0 document symbols)[0m
+09:03:43.289525 [92m                textDocument/documentSymbol 17:   > convert SymbolKind:Function 19:0-31:1[0m
+09:03:43.291640 [92m                textDocument/documentSymbol 17: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h:19:0-31:1 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/tft.h:18:0-30:1 (.cpp/.h)[0m
+09:03:43.294486 [92m                textDocument/documentSymbol 17: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h:19:5-19:21 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/tft.h:18:5-18:21 (.cpp/.h)[0m
+09:03:43.294486 [92m                textDocument/documentSymbol 17: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h (0 document symbols)[0m
+09:03:43.294486 [92m                textDocument/documentSymbol 17:   > convert SymbolKind:Function 34:0-38:1[0m
+09:03:43.296568 [92m                textDocument/documentSymbol 17: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h:34:0-38:1 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/tft.h:33:0-37:1 (.cpp/.h)[0m
+09:03:43.298681 [92m                textDocument/documentSymbol 17: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h:34:5-34:26 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/tft.h:33:5-33:26 (.cpp/.h)[0m
+09:03:43.298681 [92m                textDocument/documentSymbol 17: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h (0 document symbols)[0m
+09:03:43.298681 [92m                textDocument/documentSymbol 17:   > convert SymbolKind:Function 40:0-53:1[0m
+09:03:43.300794 [92m                textDocument/documentSymbol 17: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h:40:0-53:1 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/tft.h:39:0-52:1 (.cpp/.h)[0m
+09:03:43.302909 [92m                textDocument/documentSymbol 17: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h:40:5-40:20 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/tft.h:39:5-39:20 (.cpp/.h)[0m
+09:03:43.302909 [92m                textDocument/documentSymbol 17: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h (0 document symbols)[0m
+09:03:43.302909 [92m                textDocument/documentSymbol 17: [93mread-unlocked[0m[0m
+09:03:43.302909 [32mIDE <-- LS RESP textDocument/documentSymbol 17[0m
+09:03:43.303439 OUT Elapsed: 0s
+09:03:45.917560 IN Elapsed: 2.6141206s
+09:03:45.917560 [92mIDE --> LS REQU textDocument/documentSymbol 18[0m
+09:03:45.917560 [92m                textDocument/documentSymbol 18: [93mread-locked[0m[0m
+09:03:45.921154 [92m                textDocument/documentSymbol 18: URI: file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/ico_h.h -> file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_h.h[0m
+09:03:45.921660 [91mIDE     LS --> Clangd REQU textDocument/documentSymbol 19[0m
+09:03:45.921660 OUT Elapsed: 0s
+09:03:46.061094 IN Elapsed: 2.7805753s
+09:03:46.061687 [31mIDE     LS <-- Clangd RESP textDocument/documentSymbol 19[0m
+09:03:46.061687 [92m                textDocument/documentSymbol 18: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_h.h (3 document symbols)[0m
+09:03:46.061687 [92m                textDocument/documentSymbol 18:   > convert SymbolKind:Variable 1:0-1:17[0m
+09:03:46.063616 [92m                textDocument/documentSymbol 18: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_h.h:1:0-1:17 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/ico_h.h:0:0-0:17 (.cpp/.h)[0m
+09:03:46.065753 [92m                textDocument/documentSymbol 18: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_h.h:1:15-1:17 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/ico_h.h:0:15-0:17 (.cpp/.h)[0m
+09:03:46.065753 [92m                textDocument/documentSymbol 18: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_h.h (0 document symbols)[0m
+09:03:46.065753 [92m                textDocument/documentSymbol 18:   > convert SymbolKind:Variable 2:0-2:17[0m
+09:03:46.068817 [92m                textDocument/documentSymbol 18: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_h.h:2:0-2:17 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/ico_h.h:1:0-1:17 (.cpp/.h)[0m
+09:03:46.070924 [92m                textDocument/documentSymbol 18: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_h.h:2:15-2:17 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/ico_h.h:1:15-1:17 (.cpp/.h)[0m
+09:03:46.070924 [92m                textDocument/documentSymbol 18: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_h.h (0 document symbols)[0m
+09:03:46.070924 [92m                textDocument/documentSymbol 18:   > convert SymbolKind:Variable 5:0-5:29[0m
+09:03:46.073579 [92m                textDocument/documentSymbol 18: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_h.h:5:0-5:29 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/ico_h.h:4:0-4:29 (.cpp/.h)[0m
+09:03:46.077227 [92m                textDocument/documentSymbol 18: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_h.h:5:21-5:23 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/ico_h.h:4:21-4:23 (.cpp/.h)[0m
+09:03:46.077227 [92m                textDocument/documentSymbol 18: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_h.h (0 document symbols)[0m
+09:03:46.077227 [92m                textDocument/documentSymbol 18: [93mread-unlocked[0m[0m
+09:03:46.077227 [32mIDE <-- LS RESP textDocument/documentSymbol 18[0m
+09:03:46.077227 OUT Elapsed: 0s
+09:03:46.825338 IN Elapsed: 748.1109ms
+09:03:46.825338 [92mIDE --> LS REQU textDocument/documentSymbol 19[0m
+09:03:46.825338 [92m                textDocument/documentSymbol 19: [93mread-locked[0m[0m
+09:03:46.827491 [92m                textDocument/documentSymbol 19: URI: file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/ico_t.h -> file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_t.h[0m
+09:03:46.827491 [91mIDE     LS --> Clangd REQU textDocument/documentSymbol 20[0m
+09:03:46.827491 OUT Elapsed: 0s
+09:03:46.971716 IN Elapsed: 910.6217ms
+09:03:46.972222 [31mIDE     LS <-- Clangd RESP textDocument/documentSymbol 20[0m
+09:03:46.972222 [92m                textDocument/documentSymbol 19: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_t.h (3 document symbols)[0m
+09:03:46.973232 [92m                textDocument/documentSymbol 19:   > convert SymbolKind:Variable 1:0-1:17[0m
+09:03:46.976708 [92m                textDocument/documentSymbol 19: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_t.h:1:0-1:17 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/ico_t.h:0:0-0:17 (.cpp/.h)[0m
+09:03:46.979321 [92m                textDocument/documentSymbol 19: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_t.h:1:15-1:17 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/ico_t.h:0:15-0:17 (.cpp/.h)[0m
+09:03:46.979321 [92m                textDocument/documentSymbol 19: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_t.h (0 document symbols)[0m
+09:03:46.979321 [92m                textDocument/documentSymbol 19:   > convert SymbolKind:Variable 2:0-2:17[0m
+09:03:46.982622 [92m                textDocument/documentSymbol 19: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_t.h:2:0-2:17 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/ico_t.h:1:0-1:17 (.cpp/.h)[0m
+09:03:46.985274 [92m                textDocument/documentSymbol 19: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_t.h:2:15-2:17 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/ico_t.h:1:15-1:17 (.cpp/.h)[0m
+09:03:46.985274 [92m                textDocument/documentSymbol 19: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_t.h (0 document symbols)[0m
+09:03:46.985274 [92m                textDocument/documentSymbol 19:   > convert SymbolKind:Variable 5:0-5:29[0m
+09:03:46.987389 [92m                textDocument/documentSymbol 19: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_t.h:5:0-5:29 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/ico_t.h:4:0-4:29 (.cpp/.h)[0m
+09:03:46.990180 [92m                textDocument/documentSymbol 19: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_t.h:5:21-5:23 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/ico_t.h:4:21-4:23 (.cpp/.h)[0m
+09:03:46.990180 [92m                textDocument/documentSymbol 19: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_t.h (0 document symbols)[0m
+09:03:46.990180 [92m                textDocument/documentSymbol 19: [93mread-unlocked[0m[0m
+09:03:46.990180 [32mIDE <-- LS RESP textDocument/documentSymbol 19[0m
+09:03:46.990180 OUT Elapsed: 0s
+09:03:47.602788 IN Elapsed: 612.6076ms
+09:03:47.602788 [92mIDE --> LS REQU textDocument/documentSymbol 20[0m
+09:03:47.603297 [92m                textDocument/documentSymbol 20: [93mread-locked[0m[0m
+09:03:47.607171 [92m                textDocument/documentSymbol 20: URI: file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/ico_st.h -> file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_st.h[0m
+09:03:47.607171 [91mIDE     LS --> Clangd REQU textDocument/documentSymbol 21[0m
+09:03:47.607171 OUT Elapsed: 0s
+09:03:47.747619 IN Elapsed: 775.3969ms
+09:03:47.747619 [31mIDE     LS <-- Clangd RESP textDocument/documentSymbol 21[0m
+09:03:47.748122 [92m                textDocument/documentSymbol 20: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_st.h (3 document symbols)[0m
+09:03:47.748122 [92m                textDocument/documentSymbol 20:   > convert SymbolKind:Variable 1:0-1:16[0m
+09:03:47.750278 [92m                textDocument/documentSymbol 20: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_st.h:1:0-1:16 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/ico_st.h:0:0-0:16 (.cpp/.h)[0m
+09:03:47.752427 [92m                textDocument/documentSymbol 20: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_st.h:1:14-1:16 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/ico_st.h:0:14-0:16 (.cpp/.h)[0m
+09:03:47.752427 [92m                textDocument/documentSymbol 20: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_st.h (0 document symbols)[0m
+09:03:47.752427 [92m                textDocument/documentSymbol 20:   > convert SymbolKind:Variable 2:0-2:16[0m
+09:03:47.754038 [92m                textDocument/documentSymbol 20: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_st.h:2:0-2:16 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/ico_st.h:1:0-1:16 (.cpp/.h)[0m
+09:03:47.756201 [92m                textDocument/documentSymbol 20: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_st.h:2:14-2:16 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/ico_st.h:1:14-1:16 (.cpp/.h)[0m
+09:03:47.756201 [92m                textDocument/documentSymbol 20: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_st.h (0 document symbols)[0m
+09:03:47.756201 [92m                textDocument/documentSymbol 20:   > convert SymbolKind:Variable 5:0-5:28[0m
+09:03:47.758351 [92m                textDocument/documentSymbol 20: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_st.h:5:0-5:28 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/ico_st.h:4:0-4:28 (.cpp/.h)[0m
+09:03:47.760466 [92m                textDocument/documentSymbol 20: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_st.h:5:21-5:23 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/ico_st.h:4:21-4:23 (.cpp/.h)[0m
+09:03:47.760466 [92m                textDocument/documentSymbol 20: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/ico_st.h (0 document symbols)[0m
+09:03:47.760466 [92m                textDocument/documentSymbol 20: [93mread-unlocked[0m[0m
+09:03:47.760466 [32mIDE <-- LS RESP textDocument/documentSymbol 20[0m
+09:03:47.760466 OUT Elapsed: 0s
+09:03:48.758246 IN Elapsed: 997.2449ms
+09:03:48.758246 [92mIDE --> LS REQU textDocument/documentSymbol 21[0m
+09:03:48.758246 [92m                textDocument/documentSymbol 21: [93mread-locked[0m[0m
+09:03:48.759905 [92m                textDocument/documentSymbol 21: URI: file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/tft.h -> file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h[0m
+09:03:48.759905 [91mIDE     LS --> Clangd REQU textDocument/documentSymbol 22[0m
+09:03:48.759905 OUT Elapsed: 0s
+09:03:48.996355 IN Elapsed: 1.2487357s
+09:03:48.996919 [31mIDE     LS <-- Clangd RESP textDocument/documentSymbol 22[0m
+09:03:48.996919 [92m                textDocument/documentSymbol 21: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h (5 document symbols)[0m
+09:03:48.996919 [92m                textDocument/documentSymbol 21:   > convert SymbolKind:Variable 15:0-15:25[0m
+09:03:48.999024 [92m                textDocument/documentSymbol 21: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h:15:0-15:25 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/tft.h:14:0-14:25 (.cpp/.h)[0m
+09:03:49.002248 [92m                textDocument/documentSymbol 21: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h:15:9-15:12 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/tft.h:14:9-14:12 (.cpp/.h)[0m
+09:03:49.002248 [92m                textDocument/documentSymbol 21: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h (0 document symbols)[0m
+09:03:49.002248 [92m                textDocument/documentSymbol 21:   > convert SymbolKind:Variable 16:0-16:26[0m
+09:03:49.004366 [92m                textDocument/documentSymbol 21: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h:16:0-16:26 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/tft.h:15:0-15:26 (.cpp/.h)[0m
+09:03:49.006479 [92m                textDocument/documentSymbol 21: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h:16:4-16:8 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/tft.h:15:4-15:8 (.cpp/.h)[0m
+09:03:49.006479 [92m                textDocument/documentSymbol 21: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h (0 document symbols)[0m
+09:03:49.006479 [92m                textDocument/documentSymbol 21:   > convert SymbolKind:Function 19:0-31:1[0m
+09:03:49.008644 [92m                textDocument/documentSymbol 21: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h:19:0-31:1 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/tft.h:18:0-30:1 (.cpp/.h)[0m
+09:03:49.010771 [92m                textDocument/documentSymbol 21: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h:19:5-19:21 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/tft.h:18:5-18:21 (.cpp/.h)[0m
+09:03:49.010771 [92m                textDocument/documentSymbol 21: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h (0 document symbols)[0m
+09:03:49.010771 [92m                textDocument/documentSymbol 21:   > convert SymbolKind:Function 34:0-38:1[0m
+09:03:49.012884 [92m                textDocument/documentSymbol 21: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h:34:0-38:1 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/tft.h:33:0-37:1 (.cpp/.h)[0m
+09:03:49.015015 [92m                textDocument/documentSymbol 21: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h:34:5-34:26 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/tft.h:33:5-33:26 (.cpp/.h)[0m
+09:03:49.015015 [92m                textDocument/documentSymbol 21: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h (0 document symbols)[0m
+09:03:49.015015 [92m                textDocument/documentSymbol 21:   > convert SymbolKind:Function 40:0-53:1[0m
+09:03:49.017685 [92m                textDocument/documentSymbol 21: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h:40:0-53:1 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/tft.h:39:0-52:1 (.cpp/.h)[0m
+09:03:49.019856 [92m                textDocument/documentSymbol 21: Range: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h:40:5-40:20 -> file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/tft.h:39:5-39:20 (.cpp/.h)[0m
+09:03:49.019856 [92m                textDocument/documentSymbol 21: file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h (0 document symbols)[0m
+09:03:49.019856 [92m                textDocument/documentSymbol 21: [93mread-unlocked[0m[0m
+09:03:49.019856 [32mIDE <-- LS RESP textDocument/documentSymbol 21[0m
+09:03:49.019856 OUT Elapsed: 0s
+09:08:49.947810 IN Elapsed: 5m0.9269542s
+09:08:49.947810 [92mIDE --> LS REQU textDocument/hover 22[0m
+09:08:49.947810 [92m                textDocument/hover 22: [93mread-locked[0m[0m
+09:08:49.949733 [92m                textDocument/hover 22: URI: file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/tft.h -> file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h[0m
+09:08:49.951328 [92m                textDocument/hover 22: file:///c%3A/Users/User/OneDrive%20-%20%40JMTS/0%20-%20PROYECTOS%20EN%20CURSO/TFT%20Esp32/TFT/Reloj_Temperatura_Humedad_BaseDatos_OTA_imagen/Calendario_Temperatura_Humedad_TFT/tft.h:48:59 -> file:///c%3A/Users/User/AppData/Local/Temp/arduino-language-server2024823998/sketch/tft.h:49:59[0m
+09:08:49.951328 [91mIDE     LS --> Clangd REQU textDocument/hover 23[0m
+09:08:49.952877 OUT Elapsed: 1.5484ms
+09:08:49.958726 IN Elapsed: 5m0.9618068s
+09:08:49.959258 [31mIDE     LS <-- Clangd RESP textDocument/hover 23[0m
+09:08:49.959258 [92m                textDocument/hover 22: null response[0m
+09:08:49.959258 [92m                textDocument/hover 22: [93mread-unlocked[0m[0m
+09:08:49.959258 [32mIDE <-- LS RESP textDocument/hover 22[0m
+09:08:49.959258 OUT Elapsed: 0s
+09:08:49.959258 IN Elapsed: 0s
