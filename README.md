@@ -20,16 +20,26 @@ He adjuntado los dos setup para los dos tipos de placas en la libreria TFT_eSPI 
 
 CONFIGURACIÓN DE PINES PARA ESP32 DEV MODULE
 
-DHT         PIN 22
+DHT         PIN 22 
 
 TFT CS      PIN 15
+
 TFT RST     PIN 4
+
 TFT O/C     PIN 2
+
 TFT SCK     PIN 18
+
 TFT SDI     PIN 23
+
 TFT BL      5V o 3.3V   RETROILUMINACIÓN
+
 TFT SD0     LIBRE
+
 TFT TCK     PIN 18  TOUCH
+
 TFT TCS     PIN 21  TOUCH
+
 TFT TD1     PIN 23  TOUCH
+
 TFT TD0     PIN 19  TOUCH
