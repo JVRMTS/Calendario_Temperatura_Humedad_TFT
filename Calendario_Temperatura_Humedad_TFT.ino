@@ -29,8 +29,10 @@ unsigned long intervalo1 = 15000;
 void setup()
 {
   Serial.begin(115200);
+
+  // Ponemos el LED de la placa en OFF
   pinMode(LED_PIN, OUTPUT);
-  digitalWrite(LED_PIN, LOW); // Ponemos el LED de la placa en OFF
+  digitalWrite(LED_PIN, LOW); 
   
   // Iniciamos el sensor DHT
   dht.begin(); 
