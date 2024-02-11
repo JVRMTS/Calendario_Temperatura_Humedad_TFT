@@ -1,39 +1,37 @@
-
 /* Fichero de configuración para el reloj con envío de datos por POST y actualización via OTA
  * Creado el 27/12/2023
  * por @JMTS
 */
 
+// Configuración de la Ubicación, la IP y da nombre al puerto de actualizacion via OTA
+byte ub = 3;                        // Ubicación (1-despacho) (2-salon) (3-dormitorio) (4-resumen) (5-pruebas)
+int finIP = 20+ub;                  // Se hace así para que no haya problemas con la base de datos
+IPAddress ip(192,168,1,finIP);      // Se configura la dirección IP en base a la ubicación
+IPAddress gateway(192,168,1,1);     // Puerta de enlace
+IPAddress subnet(255,255,255,0);    // Mascara de red
+IPAddress primaryDNS(8, 8, 8, 8);   // DNS primario de Google 
+IPAddress secondaryDNS(8, 8, 4, 4); // DNS secundario de Google
+
 // Configuración de la Ubicación
 // tambien da nombre al puerto de actualizacion via OTA
-
-byte ub = 6;// Ubicación (1-despacho) (2-salon) (3-dormitorio) (4-resumen) (5-patio)
-
 char* ubicacion(){
   char *ubic;
-    if (ub == 1)
-  {
-    ubic = "DESPACHO";
-  }
-  else if (ub == 2)
-  {
-    ubic = "SALON";
-  }
-  else if (ub == 3)
-  {
-    ubic = "DORMITORIO";
-  }
-  else if (ub == 4)
-  {
-    ubic = "RESUMEN";
-  }
-  else if (ub == 5)
-  {
-    ubic = "PATIO";
-  }
-  else if (ub == 6)
-  {
-    ubic = "PRUEBAS";
+  switch (ub) {
+    case 1:
+      ubic = "DESPACHO";
+    break;
+    case 2:
+      ubic = "SALON";
+    break;
+    case 3:
+      ubic = "DORMITORIO";
+    break;
+    case 4:
+      ubic = "RESUMEN";
+    break;
+    case 5:
+      ubic = "PRUEBAS";
+    break;
   }
   return ubic;
 }

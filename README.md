@@ -1,5 +1,11 @@
 <h1>CALENDARIO CON TEMPERATURA, HUMEDAD Y SENSACIÓN TÉRMICA CON ESP32 Y ENVIO A BASE DE DATOS EN UNA TFT 480 x 320</h1>
 
+<h2>ACTUALIZACIÓN DEL 10/02/2024</h2>
+
+Se han actualizado el fichero tft.h. Ahora se utilizan Sprites para dibujar la pantalla y evitar el parpadeo.
+Tambien se ha actulizado el fichero configuracion.h para asignar una ip fija en vez de dinamica.
+Se han juntado todos los iconos en el fichero imagenes.h.
+
 Es una variación del otro reloj que tengo publicado la diferencia está en la TFT
 
 Se visualiza la Fecha, la Hora, el día de la semana, el día, el mes y el año.
