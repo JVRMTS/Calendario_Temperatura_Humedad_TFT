@@ -1,8 +1,10 @@
-
-/* Fichero con las imágenes e iconos del programa
+/*
+ * Fichero con las imágenes e iconos del programa
  * 16 enero 2024
- * JMTS
-*/
+ * @JMTS - www.jmts.es
+ * Iconos creados por Flaticon
+ * <a href="https://www.flaticon.es/iconos-gratis/temperatura" title="iconos">Temperatura iconos creados por Freepik - Flaticon</a>
+ */
 
 // Icono de Temperatura
 const uint16_t TH = 32;

@@ -7,8 +7,6 @@
  * Conexión a base de datos Mysql mediante php con el método POST para realizar un registro
  * Actualización del frimware via OTA con contraseña basado en el ejemplo ArduinoOTA
  * 27/12/2024
- *                                      NOTA
- * El orden en el que se ponen los includes es muy importante, siempre han de ir primero los primeros que se llaman
  */
 
 #include "configuracion.h"
@@ -31,16 +29,19 @@ void setup(){ // Iniciamos el puerto serial y la función SPI
   // Ponemos el led integrado en OFF
   pinMode(LED_PIN, OUTPUT);
   digitalWrite(LED_PIN, LOW); // Turn onboard LED OFF
-
+  
   // Iniciamos el sensor DHT
   dht.begin();
 
   // Llamamos a la función para configurar la pantalla
   configuracionPantalla();
 
-  // Conexion a la wifi y sincronización del reloj NTP
+  // Conexion a la wifi
   conectarWiFi();
 
+  // Configuramos el reloj
+  configReloj();
+  
   // Configuramos la actualización via OTA
   actualizacionOTA();
 }
